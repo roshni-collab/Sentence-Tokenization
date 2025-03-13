@@ -7,3 +7,5 @@ sentences = sent_tokenize(text)
 
 for i, sentence in enumerate(sentences, 1):
     print(f"{i}. {sentence}")
+
+text = text.strip()
